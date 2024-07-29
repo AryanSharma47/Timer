@@ -1,0 +1,71 @@
+body{
+    background-color: #aeab96;
+ }
+
+h2{
+    text-align: center;
+}
+
+.container{
+    border-radius:50%;
+}
+
+.progress-container{
+    width: 100%;
+    background-color: #dad3d3;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    width: 0%;
+    height: 100%;
+    background-color: #d80e0e;
+    transition: width 0.3s ease;
+}
+
+.timer-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    background-color: #cec4c4;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.input-container label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.timer-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    border: 1px solid #1e1d1d;
+    padding: 10px;
+}
+
+.button-container{
+    display: flex;
+    gap:15px;
+    justify-content:center ;
+}
+
+button:hover {
+    background-color: #44debd;
+}
